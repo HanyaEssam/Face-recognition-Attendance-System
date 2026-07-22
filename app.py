@@ -131,7 +131,7 @@ with tab_checkin:
             alert(result_box, "No employees enrolled yet. Run the enrollment script first.", "info")
         else:
             face_row = faces[0]
-            is_live, live_score, live_details = liveness.is_live(frame, face_row, debug=True)
+            is_live, live_score, live_details = liveness.is_live(frame, face_row, debug=False)
 
             # TEMPORARY: shows exactly what the liveness model is seeing so we
             # can calibrate it to your camera. Remove this st.json line once
