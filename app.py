@@ -136,7 +136,7 @@ with tab_checkin:
             # TEMPORARY: shows exactly what the liveness model is seeing so we
             # can calibrate it to your camera. Remove this st.json line once
             # the threshold is dialed in.
-            st.json(live_details)
+            #st.json(live_details)
 
             if not is_live:
                 alert(result_box,
